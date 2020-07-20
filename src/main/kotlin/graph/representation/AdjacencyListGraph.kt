@@ -1,4 +1,4 @@
-package graph
+package graph.representation
 
 fun <T> List<Pair<T, T>>.adjacencyList(twoWayEdges: Boolean = true): Map<T, Set<T>> {
     val adjacencyList = HashMap<T, MutableSet<T>>()
